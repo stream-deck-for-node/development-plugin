@@ -1,6 +1,6 @@
 # Development Plugin
 
-for Elgato Stream Deck plugin development (using [Node.js sdk](sdk-github-page))
+for Elgato Stream Deck plugin development (using [Node.js sdk](https://stream-deck-for-node.netlify.app))
 
 ## Description
 
