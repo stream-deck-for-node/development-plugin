@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "development-plugin",
+  "version": "1.0.0",
+  "author": "Francesco Saverio Cannizzaro (fcannizzaro)",
+  "description": "Debug plugin (debugging/development use only)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx pkg package.json --no-bytecode --public-packages '*' --public -o dist/debug-plugin"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node16-macos-x64",
+      "node16-windows-x64"
+    ]
+  },
+  "dependencies": {
+    "get-port-please": "^2.4.3",
+    "ws": "^8.5.0"
+  }
+}
